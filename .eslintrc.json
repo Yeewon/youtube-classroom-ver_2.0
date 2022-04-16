@@ -20,5 +20,10 @@
   },
   "plugins": ["react", "@typescript-eslint", "prettier"],
   "rules": {},
-  "ignorePatterns": ["webpack.config.js", "babel.config.js", "node_modules/"]
+  "ignorePatterns": [
+    "webpack.config.js",
+    "babel.config.js",
+    "node_modules/",
+    "cypress/"
+  ]
 }
