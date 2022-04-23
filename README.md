@@ -2,8 +2,9 @@
 - CRA 없이 Webpack+Babel 설정 
 - TypeScript 도입 
 - TDD 도입 Cypress로 E2E 테스트
-- context API로 전역 상태 관리 
-- 무한 스크롤 구현 (성능 개선)
+- context API -> Redux 로 전역 상태 관리 도구 변경  
+- 무한 스크롤 구현 (성능 개선) 
+- emotion 도입
 
 
 ### 이전 버전의 `나만의 유튜브 강의실`
