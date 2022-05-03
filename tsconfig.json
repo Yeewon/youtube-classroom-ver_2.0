@@ -1,10 +1,11 @@
 {
   "compilerOptions": {
+    "baseUrl": "src",
     /* Basic Options */
     "target": "es5",
     "module": "esnext",
     "allowJs": true,
-    "jsx": "react",
+    "jsx": "react-jsx",
     "sourceMap": true,
     "outDir": "./build",
 
@@ -17,7 +18,14 @@
 
     /* Advanced Options */
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+
+    "noImplicitAny": true,
+    "allowSyntheticDefaultImports": true,
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": false
   },
-  "include": ["./src/**/*"]
+  "include": ["src"]
 }
