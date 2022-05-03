@@ -19,7 +19,9 @@
     "sourceType": "module"
   },
   "plugins": ["react", "@typescript-eslint", "prettier"],
-  "rules": {},
+  "rules": {
+    "react/react-in-jsx-scope": "off"
+  },
   "ignorePatterns": [
     "webpack.config.js",
     "babel.config.js",
