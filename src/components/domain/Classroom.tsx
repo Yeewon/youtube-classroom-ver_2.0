@@ -1,7 +1,6 @@
 import styled from "@emotion/styled";
 import FilterButtons from "../../components/domain/FilterButtons";
-
-const Button = styled.button``;
+import Button from "../../components/base/Button";
 
 const Classroom = () => {
   return (
